@@ -1,0 +1,25 @@
+@media screen and (max-width: 1600px) {
+  h3 {
+    font-weight: 600;
+    font-size: 30px;
+    color: #000000;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  h3 {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h3 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  h3 {
+    font-size: 18px;
+  }
+}

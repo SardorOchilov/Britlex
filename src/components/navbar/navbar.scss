@@ -1,0 +1,117 @@
+@media screen and (max-width: 1600px) {
+  .container {
+    padding: 0 8rem;
+  }
+
+  nav img {
+    width: 106px;
+    height: 30px;
+  }
+
+  nav {
+    padding: 57px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+
+  nav li a {
+    font-size: 1.25rem;
+  }
+
+  nav button {
+    padding: 17px 57px;
+    border: 2px solid #263238;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #263238;
+    font-size: 24px;
+  }
+
+  .menu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 0 4rem;
+  }
+
+  nav li a {
+    font-size: 16px;
+  }
+
+  nav button {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    padding: 0 1.9rem;
+  }
+
+  nav img {
+    width: 89px;
+    height: 25px;
+  }
+
+  nav button {
+    font-size: 18px;
+    padding: 12px 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 0 2.4rem;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  nav button {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+    width: 30px;
+    height: 17px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .container {
+    padding: 0 1.9rem;
+  }
+
+  .menu {
+    width: 42px;
+    height: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    padding: 0 0.8rem;
+  }
+
+  nav img {
+    width: 76px;
+    height: 20px;
+  }
+
+  .menu {
+    width: 33px;
+    height: 19px;
+  }
+}

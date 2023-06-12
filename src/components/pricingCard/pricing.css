@@ -1,0 +1,85 @@
+@media screen and (max-width: 1600px) {
+  .pricing-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 15px;
+    width: 30%;
+  }
+
+  .price-con {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .price-img {
+    display: grid;
+    place-items: center;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .price-img img {
+    width: 100%;
+    height: auto;
+  }
+  .price {
+    margin-top: 14px;
+    background: #eeeeee;
+    border-radius: 5px;
+    padding: 3px 18px;
+  }
+  .Amount {
+    font-weight: 400;
+    font-size: 30px;
+    color: #263238;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .Amount {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .Amount {
+    font-size: 24px;
+  }
+  .price-img img {
+    height: auto;
+    width: 100%;
+  }
+  .price-img {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Amount {
+    font-size: 22px;
+  }
+  .pricing-card {
+    align-items: center;
+    width: 70%;
+  }
+  .price-img img {
+    height: 100%;
+    width: auto;
+  }
+  .price-con {
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 575px) {
+}
+
+@media screen and (max-width: 320px) {
+  .Amount {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,80 @@
+@media screen and (max-width: 1600px) {
+  button {
+    background: #263238;
+    color: white;
+    border: none;
+  }
+
+  .p-32-118 {
+    padding: 32px 118px;
+    border-radius: 15px;
+    font-size: 36px;
+  }
+  .p-15-52 {
+    padding: 15px 52px;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .p-32-118 {
+    padding: 32px 118px;
+    border-radius: 15px;
+    font-size: 26px;
+  }
+  .p-15-52 {
+    padding: 15px 52px;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .p-32-118 {
+    padding: 22px 78px;
+    border-radius: 5px;
+    font-size: 24px;
+  }
+  .p-15-52 {
+    padding: 15px 42px;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .p-32-118 {
+    padding: 19px 67px;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  .p-15-52 {
+    padding: 15px 42px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .p-32-118 {
+    padding: 24px 102px;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  .p-15-52 {
+    padding: 15px 42px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .p-32-118 {
+    font-size: 16px;
+  }
+  .p-15-52 {
+    font-size: 14px;
+  }
+}

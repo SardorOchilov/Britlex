@@ -1,0 +1,35 @@
+@media screen and (max-width: 1600px) {
+  .subscribe {
+    border: 1px solid #8f95a5;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8f95a5;
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+  .subscribe {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .subscribe {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .subscribe {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+}

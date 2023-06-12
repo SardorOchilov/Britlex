@@ -1,0 +1,19 @@
+@media screen and (max-width: 1600px) {
+  .small_p  {
+    font-weight: 400;
+    font-size: 16px;
+    color: #8f95a5;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .small_p  {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .small_p {
+    font-size: 13px;
+  }
+}
